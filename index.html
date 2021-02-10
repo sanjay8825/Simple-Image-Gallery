@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Animals Gallery</title>
+	<style type="text/css">
+		*{
+			box-sizing: border-box;
+		}
+
+		.gallery{
+			border: 1px solid #ccc;
+		}
+
+		.gallery img{
+			width: 100%;
+			height:auto;
+			
+		}
+
+		.des{
+			padding: 15px;
+			text-align: center;
+		}
+		.responsive{ 
+			padding: 0 6px;
+			float: left;
+			width: 25%;
+			margin-right:5%;
+			margin-left: 1%;
+
+		}
+
+		@media only screen and (max-width: 700px){
+			.responsive{
+				width: 100%;
+
+			}
+
+		}
+	</style>
+</head>
+<body style="background-color:skyblue">
+	<center>
+	<h1 style="color: red">Animals Gallery</h1></center>
+	<div class="responsive">
+		<div class="gallery">
+	<a href="lion.jpg" target="blank"><img src="imgs/lion.jpg" width="250" height="150" ></a>
+	<div class="des">Lion</div>
+</div>
+</div>
+
+	<div class="responsive">
+		<div class="gallery">
+	<a href="tiger.jpg" target="blank"><img src="imgs/tiger.jpg" width="250" height="200"></a>
+	<div class="des">Tiger</div>
+	
+	
+</div>
+</div>
+	<div class="responsive">
+		<div class="gallery">
+	<a href="cheetah.jpg" target="blank"><img src="imgs/cheetah.jpg" width="250" height="150"></a>
+	<div class="des">Cheetah</div>
+</div>
+</div>
+	<div class="responsive">
+		<div class="gallery">
+	<a href="Elephant.jpg" target="blank"><img src="imgs/Elephant.jpg" width="250" height="150"></a>
+	<div class="des">Elephant</div>
+</div>
+</div>
+	<div class="responsive">
+		<div class="gallery">
+	<a href="camel.jpg" target="blank"><img src="imgs/camel.jpg" width="250" height="150"></a>
+	<div class="des">Camel</div>
+	
+	
+</div>
+</div>
+	<div class="responsive">
+		<div class="gallery">
+	<a href="bear.jpg" target="blank"><img src="imgs/bear.jpg" width="250" height="150"></a>
+	<div class="des">Bear</div>
+</div>
+</div>
+
+
+
+</body>
+</html>
